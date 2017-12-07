@@ -1,29 +1,28 @@
-# README #
+# Socket Server
 
-This README would normally document whatever steps are necessary to get your application up and running.
+TCP protokolüyle 1 baytlık veri alışverişi yapan socket servis.
 
-### What is this repository for? ###
+## Başlarken
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Bu proje Code::Blocks aracılığıyla C dili ile geliştirilmiş konsol uygulamasıdır.Çalıştırdığınız makinenin ip adresinin 8888 portuna tcp protokolüyle 1 baytlık veri gönderdiğinizde program gelen data bilgisini konsolda gösterecektir.
 
-### How do I get set up? ###
+### Gereklilikler
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* Code::Blocks
 
-### Contribution guidelines ###
+sudo apt-get install codeblocks
 
-* Writing tests
-* Code review
-* Other guidelines
+* libpthread.so
 
-### Who do I talk to? ###
+Code::Blocks programı içerisinden Settings/Compiler/Linker Settings/Add tıklayarak /lib/i386-linux-gnu/libpthread.so.0 yolunu seçip ekleyebilirsiniz.
 
-* Repo owner or admin
-* Other community or team contact
+
+
+## Version
+
+0.0.1
+
+## Yazar
+
+* **İlknur Bişirici**
+
