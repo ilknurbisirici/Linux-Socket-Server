@@ -1,6 +1,6 @@
 # Socket Server
 
-TCP protokolüyle 1 baytlık veri alışverişi yapan socket servis.
+TCP protokolüyle 8 baytlık veri alışverişi yapan socket servis.
 
 ## Başlarken
 
